@@ -1,0 +1,13 @@
+.bord-nn select{
+    border: none;
+    font-weight: 600;
+}
+.show .card-body a{
+    color: gray;
+}
+form input{
+    border: 1px solid black;
+}
+.rating i{
+    margin: 0 3px;
+}
