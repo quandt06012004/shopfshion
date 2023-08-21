@@ -10,6 +10,7 @@ import { BlogComponent } from './layout/blog/blog.component';
 import { BlogDetailComponent } from './layout/blog-detail/blog-detail.component';
 import { AboutComponent } from './layout/about/about.component';
 import { SignInComponent } from './layout/sign-in/sign-in.component';
+import { CartComponent } from './layout/cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SignInComponent } from './layout/sign-in/sign-in.component';
     BlogComponent,
     BlogDetailComponent,
     AboutComponent,
-    SignInComponent
+    SignInComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
